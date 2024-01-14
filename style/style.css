@@ -1,6 +1,8 @@
 /* Shared Style */
 * {  
   font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 .btn-primary{
     border-radius: 8px;
@@ -121,8 +123,8 @@ main{
     border-radius: 8px;
     color: #FFF;
     background: #FF900E;
-    width: 342px;
-    height: 200px;
+    width: 300px;
+    height: 150px;
     padding: 25px;
     text-align: center;
     position: relative;
@@ -174,6 +176,11 @@ main{
     width: 100px;
     height: 30px;
 }
+footer{
+    width: 1320px;
+    height: 100px;
+
+}
 /* Responsive Media Queries */
 
 /* Mobile Devices */
@@ -196,7 +203,10 @@ main{
         padding-left: 20px;
         padding-right: 20px;
     }
-    
+    .ten-years{
+        width: 300px;
+        height: 150px;
+    }
     .teams-image-container{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -206,6 +216,7 @@ main{
     }
     .features-img img{
         width: 85%;
+        margin-left: 20px;
     }
   
 }
